@@ -1,0 +1,32 @@
+.navbar{
+	height: 100px;
+	background-color: #700000;
+	}
+.navbar-brand{	
+	font-size: 70px;
+	margin-top: 25px;
+	font-weight: bold;
+	}
+.black{
+	color: #000000;
+	}
+.active{
+	margin-left: 90px;
+	}
+.intro{
+	font-size: 28px;
+	margin-top: 50px;
+	}
+.house{
+	margin-top: 130px;
+	}
+.underhouse{
+	margin-top: 350px;
+	margin-left: 30px;
+	background-color: #98FB98;
+	width: 440px;
+	height: 280px;
+	}
+.service-info{
+	font-size: 30px;
+	}
