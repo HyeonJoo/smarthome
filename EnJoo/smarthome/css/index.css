@@ -1,0 +1,95 @@
+.navbar{
+	height: 100px;
+	background-color: #700000;
+	padding: 0px;
+	}
+.navbar-header{
+		font-family:"BM HANNA_TTF";
+	}
+.navbar-brand{	
+	font-size: 70px;
+	margin-top: 25px;
+	font-weight: bold;
+	text-align: center;
+	}
+.white_house{
+		width:75px; 
+		height:75px;
+		margin-top: 10px;
+		margin-left:10px; 
+		margin-right:200px;
+	}
+.white{
+	color: #ffffff;
+	}
+.black{
+	color: #000000;
+	}
+.active{
+	margin-left: 5px;
+	}
+.intro{
+	font-size: 28px;
+	margin-top: 50px;
+	}
+.house{
+	margin-top: 180px;
+	}
+.wiring{
+	margin-top: 150px;
+}
+.underhouse{
+	margin-left: 30px;
+	margin-right: 100px;
+	margin-top: 20px;
+	background-color: #7dbce8;
+	width: 545px;
+	height: 400px;
+	}
+.service-info{
+	font-size: 40px;
+	}
+.pinkbox{
+		width:610px;
+		height:wrap;
+		background-color:pink;
+		margin-left:40px;
+		padding: 20px;
+	}
+.btn-menu{
+	font-family: "BM HANNA_TTF";
+	text-align: center;
+	border-style: outset;
+    border-color: gray;
+    border-width: 4px;
+    margin: 6px;
+    padding:40px;
+ 	font-size: 50px;
+ 	font-style: bold;
+}
+.photo{
+	width:100px;
+	height:100px;
+	background-color:white;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding :0px;
+	border-radius:50px;
+}
+.photo_name{
+	font-size: 30px;
+	width:103px;
+	height:100px;
+	margin-top: 10px;
+	padding-left:5px;
+	text-align: left;
+	
+}
+.bottom{
+	font-size: 15px;
+	font-color: gray;
+	font-weight: bold;
+	font-family:arial;
+}

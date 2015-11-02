@@ -1,0 +1,18 @@
+.led1{ background-color:#a71616;}
+.led2{ background-color:#ff0000;}
+.led3{ background-color:#f27109;}
+.led4{ background-color:#fb14ac;}
+.aircon{ background-color:#005b7f;}
+.switch { background-color:#00a651;}
+.lamp{ background-color:#077b2d;}
+.watch { background-color:#0072bc;}
+.window { background-color:#8716a7;}
+.state{
+	width:600px;
+	height:400px;
+	background-color:gray;
+}
+.line{
+	width:40px;
+	height:40px;
+}

@@ -1,0 +1,25 @@
+nav {
+  position: fixed;
+  width:100%;
+  padding-top:5px;
+  padding-bottom:5px;
+  transition-duration: 1s;
+  background:black;
+}
+nav a:link, nav a:visited, nav a:active {
+  color: rgb(255,255,255);
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background:black;
+  color: #ff9933;
+  text-decoration:none;
+}
+
+nav li{
+  display: inline;
+}
