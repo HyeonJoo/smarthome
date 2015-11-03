@@ -5,7 +5,7 @@
 <!--<link rel="stylesheet" href="../main.js">-->
 <!--copied start-->
 <meta charset="utf-8">
-<title>**니가 사는 그 집_집 상태**</title>
+<title>**The House where You Live**</title>
 <!-- Optional theme -->
 <link rel="stylesheet" href="./css/index.css">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,21 +51,17 @@
             <span class="icon-bar"></span>
           </button>
 		  
-          <a style="color:black" class="navbar-brand black"  href="index.html">니가 사는 그 집</a>
-        <img src="./images/btn_home.png" align="left" class="white_house">
-
+          <a style="color:black" class="navbar-brand black"  href="index.php">니가 사는 그 집</a>
+          <img src="./images/btn_home.png" align="left" class="white_house">
+        </div>
         <div class="collapse navbar-collapse" >
-          <ul class="nav navbar-nav">
-            <li class="intro"><a href="info.html">소개</a></li>
-            <li class="active intro"><a href="view.html">집상태</a></li>
-            <li class="intro"><a href="control.html">원격 제어</a></li>
-      <li class="intro"><a href="wiring.html">배선 상태</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="intro"><a href="info.php">소개</a></li>
+            <li class="active intro"><a href="view.php">집상태</a></li>
+            <li class="intro"><a href="control.php">원격 제어</a></li>
+            <li class="intro"><a href="wiring.php">배선 상태</a></li>
           </ul>
         </div>
-
-		</div>
-		
-		<!--/.nav-collapse -->
       </div>
     </nav>
     <!--eunju copied-->
