@@ -17,11 +17,11 @@ while 1:
       cur = con.cursor()
 
       if nums[0]==1 and len(nums)==17:
-        cur.execute("insert into general (light1, light2, light3, light4, bedlight, aircon, heater, window, stove1, stove2, water, alarm, hour, minute, ziro, temper, outside) value (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",(nums[1], nums[2], nums[3], nums[4], nums[5], nums[6], nums[7], nums[8], nums[9], nums[10], nums[11], nums[12], nums[13], nums[14], nums[15], nums[16], 0))
+        cur.execute("insert into general (outside, light1, light2, light3, light4, bedlight, airctrl, air, heatctrl, heat, win, gas1, gas2, water, alarm, hour, minute, ziro, temp) value (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",(1, nums[1], nums[2], nums[3], nums[4], nums[5], nums[6], nums[7], nums[8], nums[9], nums[10], nums[11], nums[12], nums[13], nums[14], nums[15], nums[16], num[17], num[18]))
       elif nums[0]==2 and len(nums)==3:
-        cur.execute("insert into general (ziro, temper, outside) value (%s, %s, %s)",(nums[1],nums[2],1))
+        cur.execute("insert into general (outside, light1, light2, light3, light4, bedlight, airctrl, air, heatctrl, heat, win, gas1, gas2, water, alarm, hour, minute, ziro, temp) value (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",(2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, num[1], num[2]))
       elif nums[0]==3 and len(nums)==9:
-        cur.execute("insert into current (light1, light2, light3, light4, bedlight, aircon, heater, window) value (%s, %s, %s, %s, %s, %s, %s, %s)",(nums[1],nums[2],nums[3],nums[4],nums[5],nums[6],nums[7],nums[8]))
+        cur.execute("insert into current (light1, light2, light3, light4, bedlight, aircon, heater, window) value (%s, %s, %s, %s, %s, %s, %s, %s)",(nums[1],nums[2],nums[3],nums[4],nums[5],nums[6],nums[7],nums[8],num[9]))
 
 #    print(nums[0])
 #    print(nums[1])
